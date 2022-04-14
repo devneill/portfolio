@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Header logo</header>
-      <nav>About, Portfolio, Blog, Contact</nav>
+      <header className="App-header">
+        Header logo
+        <nav>About, Portfolio, Blog, Contact</nav>
+      </header>
       <main>
         <p>Hi, I'm Devon Neill.</p>
         <p>I'm a frontend developer.</p>
