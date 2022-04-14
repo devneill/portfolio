@@ -32,7 +32,9 @@ function App() {
         </nav>
       </header>
       <main className="App-main">
-        <p>Hi, I'm Devon.</p>
+        <p className="App-text">
+          Hi, I'm <span className="App-highlight">Devon Neill</span>.
+        </p>
         <p>I'm a frontend developer.</p>
         <p>
           <a
@@ -41,7 +43,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            See my portfolio
+            Why am I here?
           </a>
         </p>
       </main>
