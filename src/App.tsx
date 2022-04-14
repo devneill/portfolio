@@ -31,8 +31,8 @@ function App() {
           </a>
         </nav>
       </header>
-      <main>
-        <p>Hi, I'm Devon Neill.</p>
+      <main className="App-main">
+        <p>Hi, I'm Devon.</p>
         <p>I'm a frontend developer.</p>
         <p>
           <a
@@ -45,7 +45,7 @@ function App() {
           </a>
         </p>
       </main>
-      <footer>
+      <footer className="App-footer">
         <nav>
           <a
             className="App-link"
