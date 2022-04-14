@@ -1,45 +1,73 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import './App.css';
+import { FaGithub, FaBlog, FaTwitter } from 'react-icons/fa';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
+        <nav>
           <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            About
           </a>
-          {' | '}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Portfolio
           </a>
-        </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </a>
+        </nav>
       </header>
+      <main className="App-main">
+        <p className="App-text">
+          Hi, I'm <span className="App-highlight">Devon Neill</span>.
+        </p>
+        <p>I'm a frontend developer.</p>
+      </main>
+      <footer className="App-footer">
+        <nav className="App-footer-nav">
+          <a
+            className="App-link"
+            href="https://github.com/devneillza"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub title="Github" />
+          </a>
+          <a
+            className="App-link"
+            href="https://devneill.hashnode.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaBlog title="Blog" />
+          </a>
+          <a
+            className="App-link"
+            href="https://twitter.com/devneill"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter title="Twitter" />
+          </a>
+        </nav>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
