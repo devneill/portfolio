@@ -1,4 +1,5 @@
 import './App.css';
+import { FaGithub, FaBlog, FaTwitter } from 'react-icons/fa';
 
 function App() {
   return (
@@ -36,44 +37,32 @@ function App() {
           Hi, I'm <span className="App-highlight">Devon Neill</span>.
         </p>
         <p>I'm a frontend developer.</p>
-        <p>
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Why am I here?
-          </a>
-        </p>
       </main>
       <footer className="App-footer">
-        <nav>
+        <nav className="App-footer-nav">
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://github.com/devneillza"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github
+            <FaGithub title="Github" />
           </a>
-          {' | '}
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://devneill.hashnode.dev"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Blog
+            <FaBlog title="Blog" />
           </a>
-          {' | '}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="https://twitter.com/devneill"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            <FaTwitter title="Twitter" />
           </a>
         </nav>
       </footer>

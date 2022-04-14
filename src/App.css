@@ -39,6 +39,14 @@
   color: white;
 }
 
+.App-footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ee9b00;
+}
+
 .App-link {
   color: #ee9b00;
   margin: 0px 10px;
@@ -49,5 +57,5 @@
 }
 
 .App-highlight {
-  color: #ca6702;
+  color: #ee9b00;
 }
