@@ -6,7 +6,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -17,8 +16,6 @@
 }
 
 .App-main {
-  background-color: #005f73;
-  color: white;
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
@@ -29,14 +26,12 @@
 
 .App-footer {
   flex-shrink: 0;
-  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-footer-nav {
@@ -44,18 +39,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #ee9b00;
 }
 
 .App-link {
-  color: #ee9b00;
   margin: 0px 10px;
-}
-
-.App-text {
-  margin: 0px 10px;
-}
-
-.App-highlight {
-  color: #ee9b00;
 }
