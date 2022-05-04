@@ -1,4 +1,4 @@
-import { FaGithub, FaBlog, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaSpotify, FaTwitter } from 'react-icons/fa';
 
 export function SocialLinks() {
   return (
@@ -13,12 +13,21 @@ export function SocialLinks() {
       </a>
       <a
         className="App-link hover:text-pink-600"
+        href="https://open.spotify.com/artist/6XmLAJgOojHUvGzLv4Yjpn?si=B1D_006GTEiHlv17aig1JA"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaSpotify title="Spotify" />
+      </a>
+      {/* Add this when the blog is ready */}
+      {/* <a
+        className="App-link hover:text-pink-600"
         href="https://devneill.hashnode.dev"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaBlog title="Blog" />
-      </a>
+      </a> */}
       <a
         className="App-link hover:text-pink-600"
         href="https://twitter.com/devneill"
