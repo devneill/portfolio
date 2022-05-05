@@ -15,7 +15,7 @@ function CodeXPBar({ language, xp }: ICodeXPBar) {
       <span className="w-1/3 text-pink-100 font-bold">{language}</span>
       <div className="w-full bg-pink-400 rounded-md">
         <div className={`${width} px-4 bg-pink-600 text-pink-100 rounded-md`}>
-          {xp} years
+          {xp} {xp > 1 ? 'years' : 'year'}
         </div>
       </div>
     </li>
